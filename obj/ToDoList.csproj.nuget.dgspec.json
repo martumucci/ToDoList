@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mmucci001\\source\\repos\\ToDoList\\ToDoList.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mmucci001\\source\\repos\\ToDoList\\ToDoList.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mmucci001\\source\\repos\\ToDoList\\ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "C:\\Users\\mmucci001\\source\\repos\\ToDoList\\ToDoList.csproj",
+        "packagesPath": "C:\\Users\\mmucci001\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mmucci001\\source\\repos\\ToDoList\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mmucci001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://tecstfs.pwcinternal.com:8080/tfs/ATAI/_packaging/ATAITools/nuget/v3/index.json": {},
+          "http://tecstfs.pwcinternal.com:8080/tfs/tecs/_packaging/TECSTools/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pwc-us-tax-atai.pkgs.visualstudio.com/_packaging/ATAITools/nuget/v3/index.json": {},
+          "https://pwc-us-tax-atai.pkgs.visualstudio.com/_packaging/PwC-Services/nuget/v3/index.json": {},
+          "https://pwc-us-tax-tech.pkgs.visualstudio.com/_packaging/SDK%40Local/nuget/v3/index.json": {},
+          "https://pwc-us-tax-tech.pkgs.visualstudio.com/_packaging/SDK-Beta/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Blazor.HttpClient": {
+              "target": "Package",
+              "version": "[3.2.0-preview3.20168.3, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

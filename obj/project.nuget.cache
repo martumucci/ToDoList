@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "AM2nPvXT13gYmp3j4UD7uSm78Imq8dzla6FCRqGhvuq8ZAoMo7858/a3tzlNeuoqExftzllZYPkIrmW346dYhA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mmucci001\\source\\repos\\ToDoList\\ToDoList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mmucci001\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\mmucci001\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
+    "C:\\Users\\mmucci001\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
+    "C:\\Users\\mmucci001\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,30 @@
+@page "/sw"
+@inject HttpClient httpClient
+
+
+<h2>Here is a list of SW characters</h2>
+
+<p>From Tatooine:</p>
+
+@if (_characters.Any())
+{
+    <div>There are characters</div>
+    @foreach (var character in _characters)
+    {
+        <div>@character.Name</div>
+
+    }
+}
+else
+{
+    <div>No characters</div>
+}
+    
+
+@functions
+{
+    private List<Character> _characters = new List<Character>();
+    protected override async Task OnInitializedAsync() => await GetCharacters();
+    private async Task GetCharacters() => _characters = await httpClient.GetJsonAsync<List<Character>>("http://swapi.dev/api/people/1");
+        
+}
